@@ -70,7 +70,7 @@ hr {
 	transition: all 1.5s;
 }
 #menu.navbar-default {
-	background: linear-gradient(to top, #5ca9fb 0% , #6372ff 100%);
+	background: linear-gradient(to bottom, #5ca9fb 0% , #6372ff 100%);
 	border-color: rgba(231, 231, 231, 0);
 	box-shadow: 0 0 10px rgba(0,0,0,0.15);
 }
@@ -78,13 +78,13 @@ hr {
 	font-family: 'Raleway', sans-serif;
 	font-size: 24px;
 	font-weight: 700;
-	color: #333;
+	color: rgb(255, 255, 255);
 	text-transform: uppercase;
 }
 #menu.navbar-default .navbar-nav > li > a {
 	font-family: 'Lato', sans-serif;
 	text-transform: uppercase;
-	color: #555;
+	color: rgb(255, 255, 255);
 	font-size: 15px;
 	font-weight: 400;
 	padding: 8px 2px;
@@ -141,7 +141,7 @@ hr {
 .section-title h2::after {
 	position: absolute;
 	content: "";
-	background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+	background: linear-gradient(to bottom, #5ca9fb 0%, #6372ff 100%);
 	height: 4px;
 	width: 60px;
 	bottom: 0;
@@ -156,7 +156,7 @@ hr {
 	text-transform: uppercase;
 	color: #fff;
 	background-color: #5ca9fb;
-	background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+	background-image: linear-gradient(to bottom, #5ca9fb 0%, #6372ff 100%);
 	padding: 14px 34px;
 	letter-spacing: 1px;
 	margin: 0;
