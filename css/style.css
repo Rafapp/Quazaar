@@ -71,7 +71,7 @@ hr {
 }
 #menu.navbar-default {
 	background:linear-gradient(to top #6372ff 0%, #5ca9fb 100%);
-	border-color: rgba(231, 231, 231, 0);
+	border-color: rgb(255, 0, 0);
 	box-shadow: 0 0 10px rgba(0,0,0,0.15)
 }
 #menu a.navbar-brand {
