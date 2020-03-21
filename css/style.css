@@ -70,7 +70,7 @@ hr {
 	transition: all 1.5s;
 }
 #menu.navbar-default {
-	background-color:linear-gradient( #6372ff 100%, #5ca9fb 100%);
+	background:linear-gradient(to top #6372ff 0%, #5ca9fb 100%);
 	border-color: rgba(231, 231, 231, 0);
 	box-shadow: 0 0 10px rgba(0,0,0,0.15)
 }
