@@ -67,10 +67,10 @@ hr {
 /* Navigation */
 #menu {
 	padding: 15px;
-	transition: all 0.8s;
+	transition: all 1.5s;
 }
 #menu.navbar-default {
-	background-color: #fff;
+	background-color: #6f00ff;
 	border-color: rgba(231, 231, 231, 0);
 	box-shadow: 0 0 10px rgba(0,0,0,0.15)
 }
