@@ -76,7 +76,7 @@ hr {
 }
 #menu a.navbar-brand {
 	position: fixed;
-	top: 1020;
+	top: 50;
 	right: 0;
 }
 #menu.navbar-default .navbar-nav > li > a {
