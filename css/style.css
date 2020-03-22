@@ -75,11 +75,9 @@ hr {
 	box-shadow: 0 0 10px rgba(0,0,0,0.15);
 }
 #menu a.navbar-brand {
-	font-family: 'Raleway', sans-serif;
-	font-size: 24px;
-	font-weight: 700;
-	color: rgb(255, 255, 255);
-	text-transform: uppercase;
+	position: fixed;
+	top: 1020;
+	right: 0;
 }
 #menu.navbar-default .navbar-nav > li > a {
 	font-family: 'Lato', sans-serif;
