@@ -1,0 +1,21 @@
+ul { 
+    background: linear-gradient(to bottom, #6533FF 0%, #8933FF 100%);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    float: right ;
+    padding-right: 150px;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+  }
+li a:hover {
+    background-color: #111;
+}
