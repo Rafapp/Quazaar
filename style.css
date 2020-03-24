@@ -1,21 +1,41 @@
-ul { 
-    background: linear-gradient(to bottom, #6533FF 0%, #8933FF 100%);
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+html{
+    scroll-behavior: smooth;
 }
-li {
-    float: right ;
-    padding-right: 150px;
+body{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: -15px;
 }
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 40px;
+.logo{
+    padding-top: 5px;
+    padding-bottom: 7.5px;
+    padding-left: 150px;
+}
+.navbar{
+    font-family: Raleway;
+    font-size: 20px;
     text-decoration: none;
-  }
-li a:hover {
-    background-color: #111;
+    background: linear-gradient(to bottom, #5ca9fb 0% , #6372ff 100%);
+    padding-left: 350px;
+    padding-bottom: 15px;
+    padding-top: 50px;
+    margin-top: -160px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #6372ff;
+}
+li{
+    text-transform: uppercase;
+    display: inline-block; 
+    padding-left: -100px;
+}
+li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 100;
+    font-stretch: wider;
+    text-align: center;
+    padding-left: 300px;
+    
+    
 }
