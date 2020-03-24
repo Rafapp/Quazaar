@@ -12,6 +12,7 @@ body{
     padding-left: 150px;
 }
 .navbar{
+    overflow: hidden;
     font-family: Raleway;
     font-size: 20px;
     text-decoration: none;
