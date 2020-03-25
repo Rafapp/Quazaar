@@ -1,4 +1,8 @@
-/* inicia codigo general para formato de archivo */
+@media screen 
+ and (max-device-width: 500px) 
+ and (min-device-width: 0px)  {
+
+    /* inicia codigo general para formato de archivo */
 html{
     scroll-behavior: smooth;
 }
@@ -11,12 +15,17 @@ body{
 
 /*inicia barra de navegacion*/
 .logo{
-    padding-left: 100px;
+    padding-top: 30px;
+    padding-left: 50px;
     position: fixed;
+}
+.logo a img{
+  width: 300px;
+  height: 300px;
 }
 ul {
     font-family: Raleway;
-    font-size: 20px;
+    font-size: 50px;
     text-transform: uppercase;
     position: fixed;
     top: 0;
@@ -36,7 +45,9 @@ ul {
     display: block;
     color: white;
     text-align: center;
-    padding: 30px 100px;
+    padding: 150px 75px;
     text-decoration: none;
   }
 /*termina barra de navegacion*/
+
+  }
