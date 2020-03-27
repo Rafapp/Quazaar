@@ -22,7 +22,8 @@ body{
   position: fixed;
 }
 ul {
-z-index: 0;
+  display: inline-flexbox;
+  z-index: 0;
   font-family: Raleway;
   font-size: 45px;
   text-transform: uppercase;
@@ -81,7 +82,8 @@ body{
     position: fixed;
 }
 ul {
-  z-index: 0;
+    display: inline-flexbox;
+    z-index: 0;
     font-family: Raleway;
     font-size: 45px;
     text-transform: uppercase;
