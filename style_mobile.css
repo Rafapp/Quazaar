@@ -1,6 +1,64 @@
 @media screen 
- and (max-device-width: 500px) 
+ and (max-device-width: 350px) 
  and (min-device-width: 0px)  {
+   /* inicia codigo general para formato de archivo */
+html{
+  scroll-behavior: smooth;
+}
+body{
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+}
+/* termina codigo general para formato de archivo */
+
+/*inicia barra de navegacion*/
+.logo a img{
+  z-index: 1;
+  padding-left: 75px;
+  padding-top: 50px;
+  width: 250px;
+  height: 250px;
+  position: fixed;
+}
+ul {
+z-index: 0;
+  font-family: Raleway;
+  font-size: 45px;
+  text-transform: uppercase;
+  position: fixed;
+  display: inline-block;
+  top: 0;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: (to bottom, #5ca9fb 0% , #6372ff 100%);
+}
+
+li {
+  float: right;
+  padding-left: 35px;
+  padding-right: 50px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  padding-left: 0px;
+  padding-right: 0px;
+  text-decoration: none;
+}
+/*termina barra de navegacion*/
+
+ }
+@media screen 
+ and (max-device-width: 1200px) 
+ and (min-device-width: 350px)  {
 
     /* inicia codigo general para formato de archivo */
 html{
@@ -14,20 +72,21 @@ body{
 /* termina codigo general para formato de archivo */
 
 /*inicia barra de navegacion*/
-.logo{
-    padding-top: 30px;
-    padding-left: 50px;
+.logo a img{
+    z-index: 1;
+    padding-left: 75px;
+    padding-top: 50px;
+    width: 250px;
+    height: 250px;
     position: fixed;
 }
-.logo a img{
-  width: 250px;
-  height: 250px;
-}
 ul {
+  z-index: 0;
     font-family: Raleway;
     font-size: 45px;
     text-transform: uppercase;
     position: fixed;
+    display: inline-block;
     top: 0;
     width: 100%;
     list-style-type: none;
@@ -39,13 +98,18 @@ ul {
   
   li {
     float: right;
+    padding-left: 100px;
+    padding-right: 50px;
   }
   
   li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 150px 80px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 0px;
+    padding-right: 0px;
     text-decoration: none;
   }
 /*termina barra de navegacion*/

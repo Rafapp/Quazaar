@@ -10,11 +10,16 @@ body{
 /* termina codigo general para formato de archivo */
 
 /*inicia barra de navegacion*/
-.logo{
+.logo a img{
+    z-index: 1;
     padding-left: 100px;
+    padding-top: 0px;
+    width: 100px;
+    height: 100px;
     position: fixed;
 }
 ul {
+    z-index: 0;
     font-family: Raleway;
     font-size: 20px;
     text-transform: uppercase;
