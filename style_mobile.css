@@ -1,7 +1,8 @@
 @media screen 
  and (max-device-width: 350px) 
  and (min-device-width: 0px)  {
-   /* inicia codigo general para formato de archivo */
+
+/* inicia codigo general para formato de archivo */
 html{
   scroll-behavior: smooth;
 }
@@ -56,7 +57,72 @@ li a {
 }
 /*termina barra de navegacion*/
 
- }
+/* inicia cuerpo del sitio*/
+
+/* titulo */
+.titulo img{
+  margin-top: 250px;
+  margin-bottom: -150px;
+  width: 100%;
+  height: 100%;
+}
+.titulo{
+  font-family: Raleway;
+  color: white;
+  overflow-wrap: normal;
+  text-align: center;
+}
+.titulo h1{
+  margin-top: -550px;
+  text-transform: uppercase;
+  font-size: 150px;
+}
+.titulo p{
+  margin-top: -75px;
+  font-size: 35px;
+}
+/* finaliza titulo */
+
+/* inicia contact */
+
+/* termina contact */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen 
  and (max-device-width: 1200px) 
  and (min-device-width: 350px)  {
@@ -115,5 +181,35 @@ ul {
     text-decoration: none;
   }
 /*termina barra de navegacion*/
+
+/* inicia cuerpo del sitio*/
+
+/* titulo */
+.titulo img{
+  margin-top: -100px;
+  margin-bottom: -150px;
+  width: 100%;
+  height: 100%;
+}
+.titulo{
+  font-family: Raleway;
+  color: white;
+  overflow-wrap: normal;
+  text-align: center;
+}
+.titulo h1{
+  margin-top: -550px;
+  text-transform: uppercase;
+  font-size: 150px;
+}
+.titulo p{
+  margin-top: -75px;
+  font-size: 35px;
+}
+/* finaliza titulo */
+
+/* inicia contact */
+
+/* termina contact */
 
   }

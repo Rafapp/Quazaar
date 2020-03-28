@@ -48,4 +48,32 @@ ul {
 
 /* inicia cuerpo del sitio*/
 
+/* titulo */
+.titulo img{
+  margin-top: -100px;
+  margin-bottom: -150px;
+  width: 100%;
+  height: 100%;
+}
+.titulo{
+  font-family: Raleway;
+  color: white;
+  overflow-wrap: normal;
+  text-align: center;
+}
+.titulo h1{
+  margin-top: -550px;
+  text-transform: uppercase;
+  font-size: 150px;
+}
+.titulo p{
+  margin-top: -75px;
+  font-size: 35px;
+}
+/* finaliza titulo */
+
+/* inicia contact */
+
+/* termina contact */
+
 /*termina cuerpo del sitio */
