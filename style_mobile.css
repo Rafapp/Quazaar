@@ -62,7 +62,7 @@ li a {
 /* titulo */
 .titulo img{
   margin-top: 250px;
-  margin-bottom: -150px;
+  margin-bottom: 0px;
   width: 100%;
   height: 100%;
 }
@@ -73,7 +73,7 @@ li a {
   text-align: center;
 }
 .titulo h1{
-  margin-top: -550px;
+  margin-top: -650px;
   text-transform: uppercase;
   font-size: 150px;
 }
@@ -186,8 +186,8 @@ ul {
 
 /* titulo */
 .titulo img{
-  margin-top: -100px;
-  margin-bottom: -150px;
+  margin-top: 250px;
+  margin-bottom: 0px;
   width: 100%;
   height: 100%;
 }
@@ -198,7 +198,7 @@ ul {
   text-align: center;
 }
 .titulo h1{
-  margin-top: -550px;
+  margin-top: -650px;
   text-transform: uppercase;
   font-size: 150px;
 }
