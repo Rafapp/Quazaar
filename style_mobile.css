@@ -17,9 +17,9 @@ body{
 .logo a img{
   z-index: 1;
   padding-left: 75px;
-  padding-top: 50px;
-  width: 250px;
-  height: 250px;
+  padding-top: 125px;
+  width: 200px;
+  height: 200px;
   position: fixed;
 }
 ul {
@@ -49,8 +49,8 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   padding-left: 0px;
   padding-right: 0px;
   text-decoration: none;
@@ -61,16 +61,18 @@ li a {
 
 /* titulo */
 .titulo img{
-  margin-top: 250px;
+  margin-top: 700px;
   margin-bottom: 0px;
   width: 100%;
-  height: 100%;
+  height: 300%;
 }
 .titulo{
   font-family: Raleway;
   color: white;
   overflow-wrap: normal;
   text-align: center;
+  background-color: rgb(1, 0, 14);
+  padding-bottom: 999px;
 }
 .titulo h1{
   margin-top: -650px;
@@ -78,14 +80,52 @@ li a {
   font-size: 150px;
 }
 .titulo p{
-  margin-top: -75px;
+  margin-top: -375px;
   font-size: 35px;
+}
+.titulo button{
+  font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+	background-color: #5ca9fb;
+	background-image: linear-gradient(to bottom, #5ca9fb 0%, #6372ff 100%);
+	padding: 14px 34px;
+	letter-spacing: 1px;
+	margin: 0;
+	font-size: 35px;
+	font-weight: 500;
+	border-radius: 25px;
+	transition: all 0.5s linear;
+	border: 0;
 }
 /* finaliza titulo */
 
-/* inicia contact */
+/* inicia our mission */
+.mission h1{
+  text-transform: uppercase;
+  position: relative;
+  font-family: Raleway;
+  font-size: 75px;
+  color: white;
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 75px;
+  padding-bottom: 1000px;
+  background: linear-gradient(to bottom, #5ca9fb 0% , #6372ff 100%);
+}
+.mission p{
+  position: relative;
+  padding-right: 100px;
+  padding-left: 100px;
+  font-family: Raleway;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  margin-top: -1000px;
+}
+/* termina our mission */
 
-/* termina contact */
+/* termina cuerpo del sitio*/
 }
 
 
@@ -142,9 +182,9 @@ body{
 .logo a img{
     z-index: 1;
     padding-left: 75px;
-    padding-top: 50px;
-    width: 250px;
-    height: 250px;
+    padding-top: 75px;
+    width: 200px;
+    height: 200px;
     position: fixed;
 }
 ul {
@@ -166,7 +206,7 @@ ul {
   
   li {
     float: right;
-    padding-left: 100px;
+    padding-left: 40px;
     padding-right: 50px;
   }
   
@@ -186,16 +226,18 @@ ul {
 
 /* titulo */
 .titulo img{
-  margin-top: 250px;
+  margin-top: 700px;
   margin-bottom: 0px;
   width: 100%;
-  height: 100%;
+  height: 300%;
 }
 .titulo{
   font-family: Raleway;
   color: white;
   overflow-wrap: normal;
   text-align: center;
+  background-color: rgb(1, 0, 14);
+  padding-bottom: 999px;
 }
 .titulo h1{
   margin-top: -650px;
@@ -203,13 +245,50 @@ ul {
   font-size: 150px;
 }
 .titulo p{
-  margin-top: -75px;
+  margin-top: -375px;
   font-size: 35px;
+}
+.titulo button{
+  font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+	background-color: #5ca9fb;
+	background-image: linear-gradient(to bottom, #5ca9fb 0%, #6372ff 100%);
+	padding: 14px 34px;
+	letter-spacing: 1px;
+	margin: 0;
+	font-size: 35px;
+	font-weight: 500;
+	border-radius: 25px;
+	transition: all 0.5s linear;
+	border: 0;
 }
 /* finaliza titulo */
 
-/* inicia contact */
+/* inicia our mission */
+.mission h1{
+  text-transform: uppercase;
+  position: relative;
+  font-family: Raleway;
+  font-size: 75px;
+  color: white;
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 75px;
+  padding-bottom: 800px;
+  background: linear-gradient(to bottom, #5ca9fb 0% , #6372ff 100%);
+}
+.mission p{
+  position: relative;
+  padding-right: 100px;
+  padding-left: 100px;
+  font-family: Raleway;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  margin-top: -800px;
+}
+/* termina our mission */
 
-/* termina contact */
-
-  }
+/* termina cuerpo del sitio*/
+}
