@@ -10,6 +10,9 @@ body{
 /* termina codigo general para formato de archivo */
 
 /*inicia barra de navegacion*/
+.nav{
+  z-index: 1;
+}
 .logo a img{
     z-index: 1;
     padding-left: 100px;
@@ -89,28 +92,116 @@ ul {
 /* finaliza titulo */
 
 /* inicia mission */
+.mission{
+  z-index: -1;
+  position: relative;
+}
+
 .mission h1{
   text-transform: uppercase;
-  position: relative;
   font-family: Raleway;
   font-size: 75px;
   color: white;
   text-align: center;
   margin-top: 340px;
-  padding-top: 75px;
-  padding-bottom: 400px;
+  margin-bottom: -100px;
+  padding-top: 100px;
+  padding-bottom: 325px;
+  margin-bottom: 150px;
   background: linear-gradient(to bottom, #5ca9fb 0% , #6372ff 100%);
 }
 .mission p{
-  position: relative;
-  padding-right: 100px;
-  padding-left: 100px;
+  padding-right: 300px;
+  padding-left: 300px;
   font-family: Raleway;
-  font-size: 40px;
+  font-size: 35px;
   color: white;
   text-align: center;
-  margin-top: -400px;
+  margin-top: -450px;
 }
 /* termina mission */
+
+/*inicia projects*/
+.projects{
+  font-family: Raleway;
+  z-index: -1;
+  margin-top: 135px;
+  padding-top: 300px;
+  padding-bottom: 300px;
+  background: linear-gradient(to bottom, #000000 0% , #3a3a3a 100%);
+
+}
+.projects h1{
+  text-transform: uppercase;
+  background: -webkit-linear-gradient( #67affc 0% , #5465ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: -225px;
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 75px;
+}
+
+.projects .ninja .imagenNinja{
+  padding-left: 200px;
+  padding-top: 75px;
+  width: 350px;
+  height: 400px;
+}
+.projects .ninja .imagenAndroid{
+  padding-left: 275px;
+  padding-top: 0px;
+  width:55px;
+  height: 65px;
+}
+.projects .ninja .imagenIOS{
+  padding-left: 50px;
+  padding-top: 0px;
+  width: 75px;
+  height: 75px;
+}
+
+.projects .ninja p{
+  color: white;
+  font-size: 30px;
+  padding-left: 250px;
+}
+
+.projects .swerve .imagenSwerve{
+  margin-top: -580px;
+  margin-bottom: 300px;
+  padding-left: 740px;
+  width: 400px;
+  height: 400px;
+}
+
+.projects .swerve h1{
+  font-size: 50px;
+  text-transform: uppercase;
+  background: -webkit-linear-gradient( #67affc 0% , #5465ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-right: 25px;
+  margin-top: -280px;
+}
+
+.projects .swerve p{
+  color: white;
+  font-size: 30px;
+  padding-left: 800px;
+  margin-top: 25px;
+  padding-bottom: 300px;
+}
+
+.projects h2{
+  text-transform: uppercase;
+  background: -webkit-linear-gradient( #67affc 0% , #5465ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 50px;
+  padding-left: 1375px;
+  margin-top: -725px;
+}
+/*termina projects*/
 
 /*termina cuerpo del sitio */
