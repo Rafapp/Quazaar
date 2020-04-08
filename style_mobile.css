@@ -16,17 +16,17 @@ body{
 /*inicia barra de navegacion*/
 .logo a img{
   z-index: 1;
-  padding-left: 75px;
-  padding-top: 125px;
-  width: 200px;
-  height: 200px;
+  padding-left: 5%;
+  padding-top: 0.25%;
+  width: 17vw;
+  height: 17vw;
   position: fixed;
 }
 ul {
   display: inline-flexbox;
   z-index: 0;
   font-family: Raleway;
-  font-size: 45px;
+  font-size: 3.5vw;
   text-transform: uppercase;
   position: fixed;
   display: inline-block;
@@ -34,25 +34,23 @@ ul {
   width: 100%;
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding-top: 3.5%;
+  padding-bottom: 3.5%;
   overflow: hidden;
   background: (to bottom, #5ca9fb 0% , #6372ff 100%);
 }
 
 li {
   float: right;
-  padding-left: 35px;
-  padding-right: 50px;
+  margin-left: -10%;
 }
 
 li a {
   display: block;
   color: white;
   text-align: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
-  padding-left: 0px;
-  padding-right: 0px;
+  padding-top: 5%;
+  padding-bottom: 5%;
   text-decoration: none;
 }
 /*termina barra de navegacion*/
@@ -61,71 +59,240 @@ li a {
 
 /* titulo */
 .titulo img{
-  margin-top: 700px;
-  margin-bottom: 0px;
+  padding-top: 40%;
+  padding-bottom: 20%;
+  z-index: -1;
+  position: relative;
   width: 100%;
-  height: 300%;
+  height: 80vw;
+  background-color: rgb(1, 0, 14);
 }
 .titulo{
   font-family: Raleway;
   color: white;
-  overflow-wrap: normal;
   text-align: center;
-  background-color: rgb(1, 0, 14);
-  padding-bottom: 999px;
 }
 .titulo h1{
-  margin-top: -650px;
+  margin-top: -80%;
+  padding-bottom: 35%;
   text-transform: uppercase;
-  font-size: 150px;
+  font-size: 10vw;
 }
 .titulo p{
-  margin-top: -375px;
-  font-size: 35px;
+  margin-top: -36.5%;
+  padding-bottom: 32%;
+  font-size: 2.5vw;
+  overflow-wrap: normal;
 }
 .titulo button{
+  z-index: 0;
   font-family: 'Raleway', sans-serif;
 	text-transform: uppercase;
 	color: #fff;
 	background-color: #5ca9fb;
-	background-image: linear-gradient(to bottom, #5ca9fb 0%, #6372ff 100%);
+  background-image: linear-gradient(to bottom, #5ca9fb 0%, #6372ff 100%);
 	padding: 14px 34px;
 	letter-spacing: 1px;
-	margin: 0;
-	font-size: 35px;
+	font-size: 20px;
 	font-weight: 500;
 	border-radius: 25px;
 	transition: all 0.5s linear;
-	border: 0;
+}
+.titulo button:hover{
+  cursor: pointer;
+  color: #fff;
+	background-image: none;
+	background-color: #6372ff;
 }
 /* finaliza titulo */
 
-/* inicia our mission */
+/* inicia mission */
+.mission{
+  z-index: -1;
+  position: relative;
+}
+
 .mission h1{
   text-transform: uppercase;
-  position: relative;
   font-family: Raleway;
   font-size: 75px;
   color: white;
   text-align: center;
-  margin-top: 0px;
-  padding-top: 75px;
-  padding-bottom: 1000px;
+  margin-top: 15.5%;
+  margin-bottom: -10%;
+  padding-top: 5%;
+  padding-bottom: 325px;
+  margin-bottom: 150px;
   background: linear-gradient(to bottom, #5ca9fb 0% , #6372ff 100%);
 }
 .mission p{
-  position: relative;
-  padding-right: 100px;
-  padding-left: 100px;
+  padding-right: 10%;
+  padding-left: 10%;
   font-family: Raleway;
-  font-size: 40px;
+  font-size: 35px;
   color: white;
   text-align: center;
-  margin-top: -1000px;
+  margin-top: -450px;
 }
-/* termina our mission */
+/* termina mission */
 
-/* termina cuerpo del sitio*/
+/*inicia projects*/
+.projects{
+  font-family: Raleway;
+  z-index: -1;
+  margin-top: 4%;
+  padding-top: 17.5%;
+  padding-bottom: 16%;
+  background: linear-gradient(to bottom, #000000 0% , #3a3a3a 100%);
+
+}
+.projects h1{
+  text-transform: uppercase;
+  background: -webkit-linear-gradient( #67affc 0% , #5465ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: -13.5%;
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 5vw;
+}
+
+.projects .ninja .imagenNinja{
+  padding-left: 10%;
+  padding-top: 3.5%;
+  width: 20vw;
+  height: 20vw;
+}
+.projects .ninja .imagenAndroid{
+  padding-left: 15%;
+  padding-top: -0%;
+  width: 3vw;
+  height: 4vw;
+}
+.projects .ninja .imagenIOS{
+  padding-left: 2.75%;
+  padding-top: 0%;
+  width: 4vw;
+  height: 4vw;
+}
+
+.projects .ninja p{
+  color: white;
+  font-size: 2vw;
+  padding-left: 12.5%;
+}
+
+.projects .swerve .imagenSwerve{
+  margin-top: -40%;
+  margin-bottom: 11.75%;
+  padding-left: 39.5%;
+  width: 20vw;
+  height: 20vw;
+}
+
+.projects .swerve h1{
+  font-size: 3vw;
+  text-transform: uppercase;
+  background: -webkit-linear-gradient( #67affc 0% , #5465ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-right: .8%;
+  margin-top: -9.5%;
+}
+
+.projects .swerve p{
+  color: white;
+  font-size: 2vw;
+  padding-left: 40%;
+  margin-top: 25px;
+  padding-bottom: 15.5%;
+}
+
+.projects h2{
+  text-transform: uppercase;
+  background: -webkit-linear-gradient( #67affc 0% , #5465ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3.5vw;
+  margin-top: -40%;
+  padding-left: 70%;
+}
+/*termina projects*/
+
+/* inicia contact */
+
+.contact .imagenContact{
+  margin-top: -3%;
+  padding-left: 8%;
+  padding-top: 5%;
+  width: 35vw;
+  height: 35vw;
+}
+.contact{
+  font-family: Raleway;
+  padding-bottom: 5%;
+}
+
+.contact h1{
+  color: white;
+  text-transform: uppercase;
+  font-size: 4.5vw;
+  padding-left: 57%;
+  margin-top: -30%;
+}
+.contact p{
+  color: white;
+  font-size: 3.5vw;
+  padding-left: 61.5%;
+  margin-top: -2%;
+}
+.contact h2{
+  margin-top: -2.5%;
+  color: white;
+  font-size: 3vw;
+  padding-left: 51.5%;
+}
+.contact p2{
+  color: white;
+  font-size: 2.5vw;
+  padding-left: 54.5%;
+}
+.contact .imagenTwitter{
+  margin-top: 2.5%;
+  margin-left: 58%;
+  width: 6vw;
+  height: 6vw;
+}
+
+.contact .imagenFacebook{
+  margin-left: 2.5%;
+  width: 6vw;
+  height: 6vw;
+}
+
+.contact .imagenInstagram{
+  margin-left: 3.5%;
+  width: 6vw;
+  height: 6vw;
+}
+
+/* termina contact */
+
+/* inicia footer */
+
+ .copyright{
+    padding-top: .35%;
+    padding-bottom: .35%;
+    padding-left: 41%;
+    font-family: Raleway;
+    color: white;
+    background-color: #6e7dff;
+    font-size: 1vw;
+}
+
+/* termina footer */
+
+/*termina cuerpo del sitio */
 }
 
 
@@ -226,29 +393,30 @@ ul {
 
 /* titulo */
 .titulo img{
-  margin-top: 700px;
-  margin-bottom: 0px;
+  z-index: -1;
+  position: relative;
+  margin-top: -12.5%;
+  margin-bottom: 0%;
   width: 100%;
-  height: 300%;
+  height: 75vw;
 }
 .titulo{
   font-family: Raleway;
   color: white;
-  overflow-wrap: normal;
   text-align: center;
-  background-color: rgb(1, 0, 14);
-  padding-bottom: 999px;
 }
 .titulo h1{
-  margin-top: -650px;
+  margin-top: -41.5%;
   text-transform: uppercase;
-  font-size: 150px;
+  font-size: 10vw;
 }
 .titulo p{
-  margin-top: -375px;
-  font-size: 35px;
+  margin-top: -6.5%;
+  font-size: 2.5vw;
+  overflow-wrap: normal;
 }
 .titulo button{
+  z-index: 0;
   font-family: 'Raleway', sans-serif;
 	text-transform: uppercase;
 	color: #fff;
@@ -257,38 +425,205 @@ ul {
 	padding: 14px 34px;
 	letter-spacing: 1px;
 	margin: 0;
-	font-size: 35px;
+	font-size: 20px;
 	font-weight: 500;
 	border-radius: 25px;
 	transition: all 0.5s linear;
 	border: 0;
 }
+.titulo button:hover{
+  cursor: pointer;
+  color: #fff;
+	background-image: none;
+	background-color: #6372ff;
+}
 /* finaliza titulo */
 
-/* inicia our mission */
+/* inicia mission */
+.mission{
+  z-index: -1;
+  position: relative;
+}
+
 .mission h1{
   text-transform: uppercase;
-  position: relative;
   font-family: Raleway;
   font-size: 75px;
   color: white;
   text-align: center;
-  margin-top: 0px;
-  padding-top: 75px;
-  padding-bottom: 800px;
+  margin-top: 15.5%;
+  margin-bottom: -10%;
+  padding-top: 5%;
+  padding-bottom: 325px;
+  margin-bottom: 150px;
   background: linear-gradient(to bottom, #5ca9fb 0% , #6372ff 100%);
 }
 .mission p{
-  position: relative;
-  padding-right: 100px;
-  padding-left: 100px;
+  padding-right: 10%;
+  padding-left: 10%;
   font-family: Raleway;
-  font-size: 40px;
+  font-size: 35px;
   color: white;
   text-align: center;
-  margin-top: -800px;
+  margin-top: -450px;
 }
-/* termina our mission */
+/* termina mission */
 
-/* termina cuerpo del sitio*/
+/*inicia projects*/
+.projects{
+  font-family: Raleway;
+  z-index: -1;
+  margin-top: 4%;
+  padding-top: 17.5%;
+  padding-bottom: 16%;
+  background: linear-gradient(to bottom, #000000 0% , #3a3a3a 100%);
+
+}
+.projects h1{
+  text-transform: uppercase;
+  background: -webkit-linear-gradient( #67affc 0% , #5465ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: -13.5%;
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 5vw;
+}
+
+.projects .ninja .imagenNinja{
+  padding-left: 10%;
+  padding-top: 3.5%;
+  width: 20vw;
+  height: 20vw;
+}
+.projects .ninja .imagenAndroid{
+  padding-left: 15%;
+  padding-top: -0%;
+  width: 3vw;
+  height: 4vw;
+}
+.projects .ninja .imagenIOS{
+  padding-left: 2.75%;
+  padding-top: 0%;
+  width: 4vw;
+  height: 4vw;
+}
+
+.projects .ninja p{
+  color: white;
+  font-size: 2vw;
+  padding-left: 12.5%;
+}
+
+.projects .swerve .imagenSwerve{
+  margin-top: -40%;
+  margin-bottom: 11.75%;
+  padding-left: 39.5%;
+  width: 20vw;
+  height: 20vw;
+}
+
+.projects .swerve h1{
+  font-size: 3vw;
+  text-transform: uppercase;
+  background: -webkit-linear-gradient( #67affc 0% , #5465ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-right: .8%;
+  margin-top: -9.5%;
+}
+
+.projects .swerve p{
+  color: white;
+  font-size: 2vw;
+  padding-left: 40%;
+  margin-top: 25px;
+  padding-bottom: 15.5%;
+}
+
+.projects h2{
+  text-transform: uppercase;
+  background: -webkit-linear-gradient( #67affc 0% , #5465ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3.5vw;
+  margin-top: -40%;
+  padding-left: 70%;
+}
+/*termina projects*/
+
+/* inicia contact */
+
+.contact .imagenContact{
+  margin-top: -3%;
+  padding-left: 8%;
+  padding-top: 5%;
+  width: 35vw;
+  height: 35vw;
+}
+.contact{
+  font-family: Raleway;
+  padding-bottom: 5%;
+}
+
+.contact h1{
+  color: white;
+  text-transform: uppercase;
+  font-size: 4.5vw;
+  padding-left: 57%;
+  margin-top: -30%;
+}
+.contact p{
+  color: white;
+  font-size: 3.5vw;
+  padding-left: 61.5%;
+  margin-top: -2%;
+}
+.contact h2{
+  margin-top: -2.5%;
+  color: white;
+  font-size: 3vw;
+  padding-left: 51.5%;
+}
+.contact p2{
+  color: white;
+  font-size: 2.5vw;
+  padding-left: 54.5%;
+}
+.contact .imagenTwitter{
+  margin-top: 2.5%;
+  margin-left: 58%;
+  width: 6vw;
+  height: 6vw;
+}
+
+.contact .imagenFacebook{
+  margin-left: 2.5%;
+  width: 6vw;
+  height: 6vw;
+}
+
+.contact .imagenInstagram{
+  margin-left: 3.5%;
+  width: 6vw;
+  height: 6vw;
+}
+
+/* termina contact */
+
+/* inicia footer */
+
+ .copyright{
+    padding-top: .35%;
+    padding-bottom: .35%;
+    padding-left: 41%;
+    font-family: Raleway;
+    color: white;
+    background-color: #6e7dff;
+    font-size: 1vw;
+}
+
+/* termina footer */
+
+/*termina cuerpo del sitio */
 }
