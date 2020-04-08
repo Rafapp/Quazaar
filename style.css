@@ -6,7 +6,7 @@ body{
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
-    background: linear-gradient(to bottom, #5ca9fb 0% , #6372ff 100%);
+    background: linear-gradient(to right, #5ca9fb 0% , #6372ff 100%);
 }
 /* termina codigo general para formato de archivo */
 
@@ -54,10 +54,12 @@ ul {
 
 /* titulo */
 .titulo img{
-  margin-top: -4%;
+  z-index: -1;
+  position: relative;
+  margin-top: -12.5%;
   margin-bottom: 0%;
   width: 100%;
-  height: 100%;
+  height: 75vw;
 }
 .titulo{
   font-family: Raleway;
@@ -65,16 +67,17 @@ ul {
   text-align: center;
 }
 .titulo h1{
-  margin-top: -38.5%;
+  margin-top: -41.5%;
   text-transform: uppercase;
-  font-size: 950%;
+  font-size: 10vw;
 }
 .titulo p{
-  margin-top: -5%;
-  font-size: 35px;
+  margin-top: -6.5%;
+  font-size: 2.5vw;
   overflow-wrap: normal;
 }
 .titulo button{
+  z-index: 0;
   font-family: 'Raleway', sans-serif;
 	text-transform: uppercase;
 	color: #fff;
@@ -88,6 +91,12 @@ ul {
 	border-radius: 25px;
 	transition: all 0.5s linear;
 	border: 0;
+}
+.titulo button:hover{
+  cursor: pointer;
+  color: #fff;
+	background-image: none;
+	background-color: #6372ff;
 }
 /* finaliza titulo */
 
@@ -103,7 +112,7 @@ ul {
   font-size: 75px;
   color: white;
   text-align: center;
-  margin-top: 18.5%;
+  margin-top: 15.5%;
   margin-bottom: -10%;
   padding-top: 5%;
   padding-bottom: 325px;
@@ -126,8 +135,8 @@ ul {
   font-family: Raleway;
   z-index: -1;
   margin-top: 4%;
-  padding-top: 300px;
-  padding-bottom: 350px;
+  padding-top: 17.5%;
+  padding-bottom: 16%;
   background: linear-gradient(to bottom, #000000 0% , #3a3a3a 100%);
 
 }
@@ -203,5 +212,78 @@ ul {
   padding-left: 70%;
 }
 /*termina projects*/
+
+/* inicia contact */
+
+.contact .imagenContact{
+  margin-top: -3%;
+  padding-left: 8%;
+  padding-top: 5%;
+  width: 35vw;
+  height: 35vw;
+}
+.contact{
+  font-family: Raleway;
+  padding-bottom: 5%;
+}
+
+.contact h1{
+  color: white;
+  text-transform: uppercase;
+  font-size: 4.5vw;
+  padding-left: 57%;
+  margin-top: -30%;
+}
+.contact p{
+  color: white;
+  font-size: 3.5vw;
+  padding-left: 61.5%;
+  margin-top: -2%;
+}
+.contact h2{
+  margin-top: -2.5%;
+  color: white;
+  font-size: 3vw;
+  padding-left: 51.5%;
+}
+.contact p2{
+  color: white;
+  font-size: 2.5vw;
+  padding-left: 54.5%;
+}
+.contact .imagenTwitter{
+  margin-top: 2.5%;
+  margin-left: 58%;
+  width: 6vw;
+  height: 6vw;
+}
+
+.contact .imagenFacebook{
+  margin-left: 2.5%;
+  width: 6vw;
+  height: 6vw;
+}
+
+.contact .imagenInstagram{
+  margin-left: 3.5%;
+  width: 6vw;
+  height: 6vw;
+}
+
+/* termina contact */
+
+/* inicia footer */
+
+ .copyright{
+    padding-top: .35%;
+    padding-bottom: .35%;
+    padding-left: 41%;
+    font-family: Raleway;
+    color: white;
+    background-color: #6e7dff;
+    font-size: 1vw;
+}
+
+/* termina footer */
 
 /*termina cuerpo del sitio */
