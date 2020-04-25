@@ -513,7 +513,7 @@ height: 15vw;
 .projects .ninja p{
 color: white;
 font-size: 3vw;
-padding-left: 25%;
+text-align: center;
 }
 
 .projects .swerve .imagenSwerve{
@@ -530,14 +530,14 @@ text-transform: uppercase;
 background: -webkit-linear-gradient( #67affc 0% , #5465ff 100%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
-padding-right: .8%;
+text-align: center;
 margin-top: -9.5%;
 }
 
 .projects .swerve p{
 color: white;
 font-size: 4vw;
-padding-left: 20%;
+text-align: center;
 margin-top: 25px;
 padding-bottom: 15.5%;
 }
